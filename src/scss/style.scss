@@ -1,0 +1,132 @@
+.test{
+    color:red;
+}
+ul{
+    list-style: none;
+}
+
+.content{
+    margin-top:30px;
+}
+.centered{
+    margin:0 auto;
+}
+#venueImg{
+    border-radius: 240px;
+}
+.venueHeader{
+    font-weight:bold;
+    text-align: center;
+}
+.venue ul {
+    padding-left:0px;
+}
+.signature{
+    margin:0 auto;
+    width:200px;
+}
+.desc{
+    height:570px;
+    background-color: burlywood;
+    
+}
+.stampImg{
+    height:100px;
+    width:100px;
+}
+.stamp{
+    position:relative;
+}
+.stampText{
+    position:absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top:34px;
+    left:23px;
+    text-align: center;
+    color:darkred;
+    text-shadow: 2px 2px #FF0000;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+hr{
+    border:2px solid red;
+    width: 50px;
+}
+.sectionHead{
+    z-index: 2;
+    margin-top:5px !important;
+
+}
+.content{
+    margin-top:100px;
+    min-height:100vh; /* add media rule for larger monitors */
+}
+.itemSquare{
+    height:220px;
+    border: 1px solid black;
+}
+.profImg{
+    margin:0 auto;
+    display: block;
+}
+.profText{
+    display: block;
+    margin: 0 auto;
+    width:70%;
+    margin-top: 15px;
+}
+footer{
+    height:50px;
+    background-color: beige;
+    margin-top:150px;
+}
+table{
+    border-spacing:30px 3px;
+    border-collapse: separate;
+    
+}
+table tr td{
+    font-family: Courier New, Courier, monospace;
+}
+.boldInfo{
+    font-weight:bolder;
+   
+}
+
+.socialMediaIcons{
+    width:50px;
+    height:50px;
+    padding:1px;
+}
+.mediaBar {
+   left: 0;
+   position: fixed;
+   top: 30%;
+   z-index:5;
+}
+.mediaBar ul{
+    padding:3px;
+}
+.socialMediaIcons:hover {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+}
+.divider{
+    background-image: url("../images/flag.png");
+     background-repeat: no-repeat;
+      background-position: center;
+
+}
+    .flags{
+        height:50px;
+        width:auto;
+    }
+
+  .timeline-Widget--edge {
+    border-radius: 5px;
+    margin-left: 20px !important;
+}
+
+.jumboBanner{
+    height:600px;
+}

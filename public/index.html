@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DorbyVDan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://fb.me/react-15.1.0.js"></script>
+    <script src="https://fb.me/react-dom-15.1.0.js"></script>
+ 
+   
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+  <!-- Social Media Side bar 
+    Need to add Auto-Fill for social media -->
+ <aside class="mediaBar">
+  <ul>
+      <li><a href="http://www.facebook.com/share.php?u=http://marygillen.com/prepopulate-social-media-share-buttons.cfm">
+        <img src="images/fbk.png" class="socialMediaIcons" ></a>
+      </li>
+      <li><a href="http://www.twitter.com"><img src="../images/twitterLogo.png" class="socialMediaIcons" ></a></li>
+      <li><a href="http://www.googleplus.com"><img src="./images/googleLogo.png" class="socialMediaIcons" ></a></li>
+      <li><a href="http://www.reddit.com"><img src="/images/redditLogo.png" class="socialMediaIcons" ></a></li>
+      <li><a href="http://www.pintrest.com"><img src="../images/pintrest.png" class="socialMediaIcons" ></a></li>
+  </ul>
+</aside>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Race</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a class="scroll" href="#rules">Rules</a></li>
+        
+        <li><a class="scroll" href="#introBanner">Competitors</a></li>
+        <li><a class="scroll" href="#media">Prize</a></li>
+        <li><a class="scroll" href="#venue">Venue</a></li>
+         <li><a class="scroll" href="#prize">Prize</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+ <div class="container">
+  <div class="jumbotron jumboBanner">
+    <h1>EX Title</h1>
+    <!-- React CountDown to Race timer container -->      
+    <div id="timerApp"></div>
+   
+</div>
+<div class="container">
+
+ <section class="content" id="introBanner">
+     <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img class="flags" src="images/flag.png">
+                    <h2 class="sectionHead">Competitors</h2>
+                   
+                    <hr >
+                    
+                </div>
+            </div>
+    <div class="row">
+      <!-- Racer info - weight class gender etc -->
+        <div class="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 desc">
+            <img class="img-responsive profImg" src="http://via.placeholder.com/420x350">
+            <div class="profText">
+                <table>  
+                  <tr>
+                    <td class="boldInfo">Name:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Alias:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Age:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Height:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Weight:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Occupation:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Pace of Birth:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Manager:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Quote:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                </table>
+                              
+              </div>
+        </div>
+
+        <div class="col-md-5 col-sm-8 col-xs-10 desc">
+               <img class="img-responsive profImg" src="http://via.placeholder.com/420x350">
+               <div class="profText">
+                 <table>  
+                  <tr>
+                    <td class="boldInfo">Name:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Alias:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Age:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Height:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Weight:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Occupation:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Pace of Birth:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Manager:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                  <tr>
+                    <td class="boldInfo">Quote:</td>
+                    <td>Maria Anders</td>                   
+                  </tr>
+                </table>
+              </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="content" id="media">
+   <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img class="flags" src="images/flag.png">
+                    <h2 class="sectionHead">Media</h2>
+                    <hr >
+                    
+                </div>
+            </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+        <div class="row">
+          <!-- prize info drink, forfeit,t-shirt -->
+            <div class="col-md-8 itemSquare">
+                
+            </div>
+            <div class="col-md-4">
+
+              <!-- Twitter Widget -->
+                <a class="twitter-timeline"  href="https://twitter.com/hashtag/Diarmuidvdaniel" 
+                data-widget-id="929042821016891392">#Diarmuidvdaniel Tweets</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+                
+            </div>
+            
+
+        </div>
+      </div>
+    </div>
+ </section>
+ 
+<!-- Regulations and Rules --> 
+ <section class="content" id="rules">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="row">
+                <div class="col-lg-12 text-center ">
+                    <img class="flags" src="images/flag.png">
+                    <h2 class="sectionHead">Regulations</h2>
+                    <hr >
+                    
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <ul>
+                    <li>Olympic Style Race Track</li>
+                    <li>Needle Free</li>
+                    <li>test</li>
+                    <li>tse</li>
+                    <li>test</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                   <ul>
+                      <li>Olympic Style Race Track</li>
+                      <li>Needle Free</li>
+                      <li>test</li>
+                      <li>tse</li>
+                      <li>test</li>
+                  </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 footnotes">
+               <ul>
+                    <li>* additions</li>
+                    <li>* add</li>
+                    <li>* test</li>
+               </ul>
+            </div>
+        </div>
+        <div class="row  ">
+            <div class="signature centered">
+              <ul>
+                    <li>signature image</li>
+                    <li>Head of the Race Commission</li>
+                    <li>
+                      <div class="stamp">
+                        <img src="images/stamp.jpg" class="stampImg">
+                        <p class="stampText">RaceCom<br>Auth</p>
+                      </div>
+                    </li>
+             
+              </ul>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Prize -->
+ <section class="content" id="prize">
+   <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img class="flags" src="images/flag.png">
+                    <h2 class="sectionHead">Prize & Forfeit</h2>
+                    <hr >
+                    
+                </div>
+            </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+        <div class="row">
+          <!-- prize info drink, forfeit,t-shirt -->
+            <div class="col-md-4 itemSquare">
+                <img class="img-responsive centered" src="images/Heineken.jpg" id="">  
+            </div>
+            <div class="col-md-4">
+                  <blockquote>
+                    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+                    <footer>Losers Creed</footer>
+                  </blockquote>
+                
+            </div>
+            <div class="col-md-4 itemSquare">
+                <img class="img-responsive centered" src="images/tshirt.png" id="">  
+            </div>
+
+        </div>
+      </div>
+    </div>
+ </section>
+<!-- overview of track --> 
+ <section class="content" id="venue">
+   <div class="row">
+                <div class="col-lg-12 text-center">
+                  <img class="flags" src="images/flag.png">
+                    <h2 class="sectionHead">Venue</h2>
+                    <hr >
+                    
+                </div>
+            </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-2 ">
+          <img class="img-responsive centered" src="../images/ariel-track.jpg" id="venueImg">  
+        </div> 
+        <div class="col-md-2 venue">
+            <h3 class="venueHeader">West Side Race Track</h4>
+            <ul>
+              <li>Olympic Style Race Track</li>
+              <li>Needle Free</li>
+              <li>test</li>
+              <li>tse</li>
+              <li>test</li>
+            </ul>
+        </div>
+        
+
+    </div>
+ </section>
+  </div>
+
+
+
+
+</div>
+
+<footer>
+
+</footer>
+
+<script>
+$(document).ready(function(){
+      //Scroll to anchor function
+      $(".scroll").click(function(event){     
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top-70}, 500);
+           });
+
+});
+
+</script>
+
+</body>
+</html>
